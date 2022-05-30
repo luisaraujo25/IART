@@ -157,7 +157,7 @@ Interval and Ratio are Numeric Quantitive
 
 | Task | Attribute set (x) | Class Label (y) |
 | - | - | - |
-| Identify if a transaction is fraud or not | Distance from home (where the transaction happened), Distance from the last transaction, Ratio of purchased price to median purchased price, Repeat Retailer (Bought from that retailer before), Used chip (used credit card), Used pin (used pin number), Online order | Fraud or not
+| Identify if a transaction is fraud or not | Distance from home (where the transaction happened), Distance from the last transaction, Ratio of purchased price to median purchased price, Repeat Retailer (Bought from that retailer before), Used chip (used credit card), Used pin (used pin number), Online order | Fraud (or not)
 
 
 Attribute | Type | Properties | Discrete vs Continuous |
