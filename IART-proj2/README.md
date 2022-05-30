@@ -20,6 +20,7 @@ Power point:
 so on).
 - Evaluation metrics: performance during learning, confusion matrix, precision, recall, accuracy, F1 measure and the time
 spent to train/test the models
+- Model = Algorithm + Dataset
 
 ## Steps
 
@@ -158,4 +159,7 @@ Interval and Ratio are Numeric Quantitive
 | - | - | - |
 | Identify if a transaction is fraud or not | Distance from home (where the transaction happened), Distance from the last transaction, Ratio of purchased price to median purchased price, Repeat Retailer (Bought from that retailer before), Used chip (used credit card), Used pin (used pin number), Online order | Fraud or not
 
+Procedure:
+
 ![img](img/classificatioon.png)
+![procedure](img/classificationprocedure.png)
