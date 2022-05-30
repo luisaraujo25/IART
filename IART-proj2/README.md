@@ -35,13 +35,62 @@ spent to train/test the models
 - Decision Trees
 - Neural Networks
 - K-Nearest Neighbour Classifier
-- SVM
+- Support Vector Machine
 - Logistic Regression
 - Rnadom Forest
-
+- Naive Bayes
 
 Note: Use Scikit-Learn Python library to compare.
 
+
+## Preprocessing
+
+### FIRST
+
+- Integration of data from various sources
+- Bringing integrated data into common format
+
+### SECOND
+
+- Dealing with missing data
+- Remove noise
+- Remove outliers 
+- Dealing with duplicated data
+- Remove inconsistences
+
+### THIRD
+
+- Feature Scaling
+- Dealing with Categorical data
+- Dealing with Imbalanced data
+- Dimension Reduction
+- Feature Engineering
+- Train test split of data
+
+
+## Useful packages
+
+- RapidMiner
+- WEKA
+- R
+- Python libraries (see below)
+- SPSS
+- KNIME
+- SAS Enterprise Miner
+- Insightful Miner
+
+## Python libraries/packages
+
+- NumPy
+- SciPy
+- MatPlotLib
+- IPython
+- Pandas
+- scikit learn
+- OpenAI Gym (for unsupervised learning i think)
+- TensorFlow
+- Keras
+- Machine Learning Agents
 
 ## Dataset
 
