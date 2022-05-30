@@ -159,6 +159,19 @@ Interval and Ratio are Numeric Quantitive
 | - | - | - |
 | Identify if a transaction is fraud or not | Distance from home (where the transaction happened), Distance from the last transaction, Ratio of purchased price to median purchased price, Repeat Retailer (Bought from that retailer before), Used chip (used credit card), Used pin (used pin number), Online order | Fraud or not
 
+
+Attribute | Type | Properties | Discrete vs Continuous |
+| - | - | - | - |
+| Distance from home | Ratio |  Distinctness, Order, Meaningful differences and Meaningful ratios | Continuous |
+| Distance from last transaction | Ratio | Distinctness, Order, Meaningful differences and Meaningful ratios | Continuous |
+| Ratio of purchased price to median purchased price | Ratio |  Distinctness, Order, Meaningful differences and Meaningful ratios | Continuous |
+| Repeat Retailer | Nominal (binary) | Distinctness | Discrete |
+| Used chip (used credit card) | Nominal (binary) | Distinctness | Discrete | 
+| Used pin (used pin number) | Nominal (binary) | Distinctness | Discrete |
+| Online Order | Nominal (binary) | Distinctness | Discrete |
+| Fraud | Nominal (binary) | Distinctness | Discrete |
+
+
 Procedure:
 
 ![img](img/classificatioon.png)
