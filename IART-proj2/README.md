@@ -33,12 +33,14 @@ spent to train/test the models
 ## Algorithms
 
 - Decision Trees
-- Neural Networks
+- Neural Networks (Deep Neural Networks)
 - K-Nearest Neighbour Classifier
 - Support Vector Machine
 - Logistic Regression
 - Rnadom Forest
 - Naive Bayes
+- Bayesian Belief Networks
+- Rule-based Methods
 
 Note: Use Scikit-Learn Python library to compare.
 
@@ -52,10 +54,10 @@ Note: Use Scikit-Learn Python library to compare.
 
 ### SECOND
 
-- Dealing with missing data
+- <b> Dealing with missing data </b>
 - Remove noise
 - Remove outliers 
-- Dealing with duplicated data
+- <b> Dealing with duplicated data </b>
 - Remove inconsistences
 
 ### THIRD
@@ -96,9 +98,64 @@ Note: Use Scikit-Learn Python library to compare.
 
 - Distance from home (where the transaction happened)
 - Distance from the last transaction
-- Ratio of purchased pirce to median purchased price
+- Ratio of purchased price to median purchased price
 - Repeat Retailer (Bought from that retailer before)
 - Used chip (used credit card)
 - Used pin (used pin number)
 - Online order
 - Fraud
+
+## Attribute analysis
+
+### Nominal
+Examples: ID Numbers, eye color, zip codes)
+
+<b>Properties:</b> Distinctness
+
+### Ordinal
+Examples: rankings: 1-10, grades->A,B,C , height->tall, short)
+
+<b>Properties:</b> Distinctness and Order.
+
+### Interval
+Examples: calendar dates, temperatures in Celsius or Fahrenheit)
+
+<b>Properties:</b> Distinctness, Order and Meaningful differences
+
+### Ratio
+Exemplo: temperature in Kelvin, length, counts, elapsed time -> time to run a race)
+
+<b>Properties:</b> Distinctness, Order, Meaningful differences and Meaningful ratios
+
+## Properties of Attributes
+
+- Distinctness: = !=
+- Order: < >
+- Meaningful Differences: + -
+- Meaningful Ratios: * /
+
+Distinctness and Order are Categorical Quantitive.
+
+Interval and Ratio are Numeric Quantitive 
+
+### Discrete vs Continuous Attributes
+
+| Discrete | Continuous |
+| -------- | ---------- |
+| Finite set of values | Real numbers |
+| zip codes, set of words, eye colours | Temperature, Height, Weight |
+| Usually represented as Integer variables | Usually represented as Floating-point variables |
+
+
+## Classification problems
+
+!["tree"](img/tree.png)
+!["process](img/tree.png)
+
+# Credit Card Fraud
+
+| Task | Attribute set (x) | Class Label (y) |
+| - | - | - |
+| Identify if a transaction is fraud or not | Distance from home (where the transaction happened), Distance from the last transaction, Ratio of purchased price to median purchased price, Repeat Retailer (Bought from that retailer before), Used chip (used credit card), Used pin (used pin number), Online order | Fraud or not
+
+![img](img/classificatioon.png)
