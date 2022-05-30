@@ -34,8 +34,11 @@ spent to train/test the models
 
 - Decision Trees
 - Neural Networks
-- K-NN
+- K-Nearest Neighbour Classifier
 - SVM
+- Logistic Regression
+- Rnadom Forest
+
 
 Note: Use Scikit-Learn Python library to compare.
 
