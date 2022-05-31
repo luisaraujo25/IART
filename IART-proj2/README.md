@@ -1,6 +1,6 @@
 # IART 2021/2022: Credit Card Fraud - Supervised Learning
 
-## Team members
+## Team members performance during learning, confusion matrix, precision, recall, accuracy, F1 measure and the time spent to train/test the models
 - Juan Bellon [201908142]
 - Luísa Araújo [201904996]
 - Nuno Castro [202003324]
@@ -20,6 +20,7 @@ Power point:
 so on).
 - Evaluation metrics: performance during learning, confusion matrix, precision, recall, accuracy, F1 measure and the time
 spent to train/test the models
+- Accuracy doesnt make sense.
 - Model = Algorithm + Dataset
 
 ## Steps
