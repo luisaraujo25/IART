@@ -5,6 +5,10 @@
 - Luísa Araújo [201904996]
 - Nuno Castro [202003324]
 
+## How to run
+
+Just open notebook and run it, make sure the notebook remains inside this folder so it can fetch the csv file from *files* folder
+
 ## Checkpoint 2
 
 Power point:
